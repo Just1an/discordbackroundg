@@ -1,3 +1,48 @@
+:root, .theme-dark, .theme-light {
+    --brand-experiment: hsl(227, 58%, 65%);
+    --brand-500: var(--brand-experiment);
+    --brand-experiment-560: hsl(227, 58%, 67.5%);
+    --brand-experiment-600: hsl(227, 58%, 70%);
+    --background-secondary: var(--background-primary);
+    --background-secondary-alt: var(--background-primary);
+    --background-modifier-selected: var(--background-tertiary);
+    --background-floating: var(--background-tertiary);
+    --channeltextarea-background: var(--background-tertiary);
+    --input-background: var(--background-tertiary);
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: transparent;
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+    --modal-background: var(--background-primary);
+    --modal-footer-background: var(--background-primary);
+    --deprecated-card-bg: var(--background-tertiary);
+    --deprecated-text-input-border: none;
+    --box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    --elevation-high: var(--box-shadow);
+    --elevation-stroke: var(--box-shadow);
+    --dark-elevation-border: var(--box-shadow);
+    --dark-elevation-high: var(--box-shadow);
+    --dark-elevation-low: var(--box-shadow);
+    --search-popout-option-fade: transparent;
+    --search-popout-option-fade-hover: transparent;
+}
+
+.theme-dark {
+    --background-primary: #1f2125;
+    --background-tertiary: #14161a;
+    --text-normal: #ffffff;
+    --text-muted: #9b9b9b;
+    --channels-default: #b8b8b8;
+}
+
+.theme-light {
+    --background-primary: #f5f5f5;
+    --background-tertiary: #cccccc;
+    --channels-default: #1a1a1a;
+    --text-normal: #000000;
+    --text-muted: #6e6e6e;
+}
+
 /* SETTINGS SECTION */
 
 :root .info-3pQQBb .text-xs-normal-3O7EaX:first-child:before { /* Eris theme information at the bottom of the Settings sections */
@@ -255,6 +300,4 @@
     box-shadow: var(--box-shadow);
 }
 
-.wrapper-2SplAX {   /* Box shadow for "Follow to get this channel's updates in your own server." wrapper */
-    box-shadow: var(--box-shadow);
-}
+.wrapper-2SplAX {   /* Box shadow for "Follow to get this channel's updates in your own server."
