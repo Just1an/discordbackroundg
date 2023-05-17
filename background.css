@@ -8,7 +8,6 @@
 
 /****ADDONS****/
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 @import url("https://warrayquipsome.github.io/Chillax/ChillaxTag.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/SettingsModalEdited.css");
 @import url("https://crearts-community.github.io/Friends-Grid/theme.css");
@@ -151,12 +150,13 @@
 }
 
 /*--FANCY CSS CODES--*/
-/*discord wordmark*/
+/*discord wordmark
+!!!ALL RIGHTS TO CHILLAX COPYRIGHT MAY BE DUE TO SUBJECT©️!!!*/
 .wordmark-2u86JB path {
   display: none !important;
 }
 .theme-dark .wordmark-2u86JB::before {
-  content: "‏‏‎ c h i l l a x";
+  content: "‏‏‎ J v s t 1 a n ツ";
   font-size: 12px;
   font-family: "Poiret one" !important;
   position: fixed;
@@ -171,7 +171,7 @@
   transition: 0.5s ease-in-out;
 }
 .wordmark-2u86JB:hover:before {
-  content: "‏‏‎ c h i l l a x";
+  content: "‏‏‎ J v s t 1 a n ツ";
   letter-spacing: 2px;
 }
 /* button design*/
@@ -226,7 +226,7 @@
   visibility: hidden !important;
 }
 .theme-dark .placeholder-1rCBhr::before {
-  content: "Life is so much easier when you just take a time to chill";
+  content: "Jvst1anツ";
   color: rgba(255, 255, 255, 0.2);
   font-family: "Poppins";
   font-size: 13px;
@@ -1077,21 +1077,8 @@ div[class*="wrapper-3Un6-K"][aria-label*="Online"]
 /*ping design*/
 .numberBadge-37OJ3S {
   padding: 5px 10px !important;
-  background-color: #fe365c;
-  box-shadow: 0px 0px 10px 2px #ff2d54;
-}
-/*chillax squad font and colour change*/
-[href="https\:\/\/github.com/warrayquipsome/Chillax#author"] {
-  font-family: "Libre Barcode 128 Text";
-  color: rgb(255, 161, 161) !important;
-  font-weight: 400;
-  font-size: 25px;
-}
-[href="https\:\/\/github.com/warrayquipsome/Chillax#author"]:hover {
-  font-family: "Libre Barcode 128";
-  color: rgb(255, 161, 161) !important;
-  font-weight: 400;
-  font-size: 25px;
+  background-color: #171438;
+  box-shadow: 0px 0px 10px 2px #171438;
 }
 /*custom group font*/
 .input-1nrc5P {
